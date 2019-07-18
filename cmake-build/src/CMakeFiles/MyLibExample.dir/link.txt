@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMyLibExample.a  CMakeFiles/MyLibExample.dir/cpp/simple_lib.cpp.o
+/usr/bin/ranlib libMyLibExample.a

@@ -1,0 +1,27 @@
+echo "###############################################"
+echo "############ Run make wrapper #################"
+echo "############ Input : { $@ }..."
+
+make CMAKE=/home/a/W/W.priv/Shared/CMake/bin/cmake $@ || exit
+
+echo "###############################################"
+echo "############ Show binaries ####################"
+find bin
+
+echo "###############################################"
+echo "################ Run MPI ##w####################"
+
+MPITARGETS="$(find ./bin/target | grep .ompi$)"
+MPITESTS="$(find ./bin/test | grep .ompi$)"
+
+for mpi in $MPITARGETS; do
+echo "OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=extern/OpenMPI/lib extern/OpenMPI/bin/mpirun -n 4 ${mpi}"
+OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=extern/OpenMPI/lib extern/OpenMPI/bin/mpirun -n 4 ${mpi}
+done
+
+for mpi in $MPITESTS; do
+echo "OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=extern/OpenMPI/lib extern/OpenMPI/bin/mpirun -n 4 ${mpi}"
+OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=extern/OpenMPI/lib extern/OpenMPI/bin/mpirun -n 4 ${mpi}
+done
+
+#MPI expect full path for PREFIX, so that docs will work properly

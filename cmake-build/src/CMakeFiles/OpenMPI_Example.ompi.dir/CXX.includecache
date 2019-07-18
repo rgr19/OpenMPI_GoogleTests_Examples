@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../extern/OpenMPI/include/mpi.h
+stddef.h
+-
+mpi_portable_platform.h
+../extern/OpenMPI/include/mpi_portable_platform.h
+openmpi/ompi/mpi/cxx/mpicxx.h
+../extern/OpenMPI/include/openmpi/ompi/mpi/cxx/mpicxx.h
+
+../extern/OpenMPI/include/mpi_portable_platform.h
+omp.h
+../extern/OpenMPI/include/omp.h
+omp.h
+../extern/OpenMPI/include/omp.h
+
+/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/src/ompi/main.cpp
+iostream
+-
+mpi.h
+-
+

@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/src",
+  "command": "/usr/bin/c++  -DLD_LIBRARY_PATH=/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/extern/OpenMPI/lib -DOPAL_PREFIX=/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/extern/OpenMPI -I/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/extern/OpenMPI/include  -g   \"-I/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/extern/OpenMPI/include -pthread\" -std=gnu++11 -o CMakeFiles/OpenMPI_Example.ompi.dir/ompi/main.cpp.o -c /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/src/ompi/main.cpp",
+  "file": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/src/ompi/main.cpp"
+},
+{
+  "directory": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/src",
+  "command": "/usr/bin/c++    -g   -std=gnu++11 -o CMakeFiles/MyLibExample.dir/cpp/simple_lib.cpp.o -c /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/src/cpp/simple_lib.cpp",
+  "file": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/src/cpp/simple_lib.cpp"
+},
+{
+  "directory": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-build/googlemock",
+  "command": "/usr/bin/c++   -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock/include -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest/include -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest  -g   -Wall -Wshadow -Werror -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-build/googlemock",
+  "command": "/usr/bin/c++   -I/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock/include -I/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest/include -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest  -g   -Wall -Wshadow -Werror -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-build/googlemock/gtest",
+  "command": "/usr/bin/c++   -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest/include -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest  -g   -Wall -Wshadow -Werror -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-build/googlemock/gtest",
+  "command": "/usr/bin/c++   -I/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest/include -I/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest  -g   -Wall -Wshadow -Werror -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/test",
+  "command": "/usr/bin/c++  -DDO_GTEST=1 -I/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/extern/OpenMPI/include -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest/include -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock/include -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock  -g   \"-I/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/extern/OpenMPI/include -pthread\" -std=gnu++11 -o CMakeFiles/test_gtest_mpi.ompi.dir/test_gtest_mpi.cpp.o -c /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/test/test_gtest_mpi.cpp",
+  "file": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/test/test_gtest_mpi.cpp"
+},
+{
+  "directory": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/test",
+  "command": "/usr/bin/c++  -DDO_GTEST=1 -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest/include -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock/include -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock  -g   -std=gnu++11 -o CMakeFiles/test_gtest.dir/test_gtest.cpp.o -c /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/test/test_gtest.cpp",
+  "file": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/test/test_gtest.cpp"
+},
+{
+  "directory": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/test",
+  "command": "/usr/bin/c++  -DDO_GTEST=1 -I/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/extern/OpenMPI/include -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest/include -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googletest -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock/include -isystem /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/cmake-build/extern/GoogleTest/googletest-src/googlemock  -g   \"-I/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/extern/OpenMPI/include -pthread\" -std=gnu++11 -o CMakeFiles/test_gtest_mpi_listener.ompi.dir/test_gtest_mpi_listener.cpp.o -c /mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/test/test_gtest_mpi_listener.cpp",
+  "file": "/mnt/c/My/W/W.priv/Examples/OpenMPI_GoogleTests_Examples/test/test_gtest_mpi_listener.cpp"
+}
+]
